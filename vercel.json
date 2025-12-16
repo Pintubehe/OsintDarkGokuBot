@@ -1,13 +1,8 @@
 {
-  "functions": {
-    "bot.php": {
-      "runtime": "vercel-php@0.6.0"
-    }
-  },
-  "routes": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/bot.php"
+      "src": "bot.php",
+      "use": "@vercel/php"
     }
   ]
 }
