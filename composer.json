@@ -1,24 +1,10 @@
 {
-  "name": "telegram-bot-php",
-  "description": "Telegram Bot on Vercel",
-  "type": "project",
-  "require": {
-    "php": "^8.0",
-    "ext-curl": "*",
-    "ext-json": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
+    "name": "pintubeme/osint-dark-goku-bot",
+    "description": "Telegram Bot on Vercel",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
     }
-  },
-  "scripts": {
-    "vercel-build": "echo 'Nothing to build for PHP'"
-  },
-  "config": {
-    "optimize-autoloader": true,
-    "sort-packages": true
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
 }
